@@ -7,7 +7,7 @@ class BlaColors {
   static Color primary            = const Color(0xFF00aff5);
 
   static Color backgroundAccent   = const Color(0xFFEDEDED);
- 
+
   static Color neutralDark        = const Color(0xFF054752);
   static Color neutral            = const Color(0xFF3d5c62);
   static Color neutralLight       = const Color(0xFF708c91);
