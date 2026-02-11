@@ -9,5 +9,8 @@ import '../model/ride/locations.dart';
 class LocationsService {
 
   static const List<Location> availableLocations = fakeLocations;   // TODO for now fake data
- 
+
+  static List<Location> searchLocations(String query){
+    return availableLocations.where((location) => location.name.toLowerCase().contains(query.toLowerCase())).toList();
+  }
 }
