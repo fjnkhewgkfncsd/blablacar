@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../model/ride_pref/ride_pref.dart';
 import '../../service/ride_prefs_service.dart';
-import '../../theme/theme.dart';
+import '../../ui/theme/theme.dart';
 
 import 'widgets/ride_pref_form.dart';
 import 'widgets/ride_pref_history_tile.dart';

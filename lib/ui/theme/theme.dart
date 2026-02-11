@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 /// Definition of App colors.
 ///
 class BlaColors {
-  static Color primary            = const Color(0xFF00aff5);
+  static const Color primary      = Color(0xFF00aff5);
 
   static Color backgroundAccent   = const Color(0xFFEDEDED);
 
@@ -15,11 +15,19 @@ class BlaColors {
 
   static Color greyLight          = const Color(0xFFE2E2E2);
   
-  static Color white              = Colors.white;
+  static const Color white        =Colors.white;
 
   static Color get backGroundColor { 
     return BlaColors.primary;
   }
+
+  static Color get switchIcon => primary;
+
+  static const Color primaryButtonColor = primary;
+
+  static Color get backgroundTextEditing => greyLight;
+
+  static const Color secondaryButtonColor = white;
 
   static Color get textNormal {
     return BlaColors.neutralDark;
